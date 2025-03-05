@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ModernBasic - Premium Web Template</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+  <div id="progressContainer">
+    <div id="progressBar"></div>
+  </div>
+  
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">ModernBasic</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="controls">
+        <button id="darkModeToggle" aria-label="Toggle Dark Mode">🌙</button>
+        <div class="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+
+  <section id="hero" class="hero fade-in">
+    <div class="hero-content">
+      <h1>Modern. Responsive. Powerful.</h1>
+      <p>Your premium web template to create stunning websites with ease.</p>
+      <a href="#pricing" class="btn">Get Started</a>
+    </div>
+  </section>
+  
+
+  <section id="features" class="features fade-in">
+    <h2>Features</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <h3>Responsive Design</h3>
+        <p>Looks great on any device, from mobile to desktop.</p>
+      </div>
+      <div class="card">
+        <h3>Modern UI</h3>
+        <p>Sleek, clean, and intuitive interfaces for your project.</p>
+      </div>
+      <div class="card">
+        <h3>Fast Performance</h3>
+        <p>Optimized code and assets for blazing fast load times.</p>
+      </div>
+      <div class="card">
+        <h3>Customizable</h3>
+        <p>Easily modify styles to match your brand.</p>
+      </div>
+    </div>
+  </section>
+  
+
+
+<section class="grid grid-cols-1 md:grid-cols-3 gap-8 p-12">
+  <div class="glass p-6 rounded-lg fade-in">
+      <h3 class="text-xl font-semibold">🚀 Fast & Responsive</h3>
+      <p class="mt-2">Optimized for all screen sizes and blazing fast performance.</p>
+  </div>
+  <div class="glass p-6 rounded-lg fade-in">
+      <h3 class="text-xl font-semibold">🎨 Stunning UI</h3>
+      <p class="mt-2">Clean, modern, and interactive design with beautiful typography.</p>
+  </div>
+  <div class="glass p-6 rounded-lg fade-in">
+      <h3 class="text-xl font-semibold">🔄 Dark Mode Support</h3>
+      <p class="mt-2">Easily switch between light and dark mode for better usability.</p>
+  </div>
+</section>
+
+
+  <section id="portfolio" class="portfolio fade-in">
+    <h2>Portfolio</h2>
+    <div class="portfolio-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Design</button>
+      <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+      <button class="filter-btn" data-filter="photo">Photography</button>
+    </div>
+    <div class="portfolio-grid">
+      <div class="portfolio-item" data-category="web">
+        <img src="#" alt="Project 1">
+        <div class="portfolio-info">
+          <h4>Web Project 1</h4>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="graphic">
+        <img src="#" alt="Project 2">
+        <div class="portfolio-info">
+          <h4>Graphic Project 1</h4>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="photo">
+        <img src="#" alt="Project 3">
+        <div class="portfolio-info">
+          <h4>Photo Project 1</h4>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="web">
+        <img src="#" alt="Project 4">
+        <div class="portfolio-info">
+          <h4>Web Project 2</h4>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+
+  <section id="pricing" class="pricing fade-in">
+    <h2>Pricing</h2>
+    <div class="pricing-card">
+      <h3>Premium Template</h3>
+      <p class="price">$20</p>
+      <ul>
+        <li>100% Responsive Design</li>
+        <li>Modern UI/UX</li>
+        <li>Cross-browser Compatibility</li>
+        <li>Easy Customization</li>
+        <li>Detailed Documentation</li>
+        <li>Creative Animations & Effects</li>
+      </ul>
+      <a href="#contact" class="btn">Purchase Now</a>
+    </div>
+  </section>
+  
+
+  <section id="testimonials" class="testimonials fade-in">
+    <h2>Testimonials</h2>
+    <div class="testimonial-carousel">
+      <button class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+      <div class="carousel-wrapper">
+        <div class="carousel-slide active">
+          <p>"This template transformed my website! The design is modern and it's incredibly easy to customize."</p>
+          <h4>- Jane Doe</h4>
+        </div>
+        <div class="carousel-slide">
+          <p>"Amazing performance and sleek design. Perfect for any business looking to upgrade their online presence."</p>
+          <h4>- John Smith</h4>
+        </div>
+        <div class="carousel-slide">
+          <p>"The interactive features and creative design elements really set this template apart from the rest."</p>
+          <h4>- Alex Johnson</h4>
+        </div>
+      </div>
+      <button class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </section>
+  
+
+  <section id="contact" class="contact fade-in">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+  
+
+  <section id="newsletter" class="newsletter fade-in">
+    <h2>Subscribe to Our Newsletter</h2>
+    <p>Get the latest updates, tips, and templates delivered to your inbox.</p>
+    <form id="newsletterForm">
+      <input type="email" id="newsletterEmail" name="newsletterEmail" placeholder="Enter your email" required>
+      <button type="submit" class="btn">Subscribe</button>
+    </form>
+  </section>
+  
+
+  <button id="backToTop" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></button>
+  
+
+  <footer class="footer fade-in">
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <p>&copy; 2025 ModernTemplate Pro. All Rights Reserved.</p>
+  </footer>
+  
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="modalClose" class="modal-close">&times;</span>
+      <h3>Thank You for Subscribing!</h3>
+      <p>You will receive our latest updates soon.</p>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
